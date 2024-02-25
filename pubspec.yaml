@@ -1,6 +1,6 @@
 name: general_dev
 description: A sample command-line application.
-version: 0.0.0
+version: 0.0.0 #general_dev_library
 repository: https://github.com/azkadev/general_dev
 publish_to: none
 

@@ -1,6 +1,6 @@
 name: general_dev_fucshia
 description: A Library Full Package Template
-version: 0.0.0
+version: 0.0.0 #general_dev_library
 homepage: https://github.com/azkadev/general_dev
 repository: https://github.com/azkadev/general_dev
 issue_tracker: https://github.com/azkadev/general_dev/issues 
