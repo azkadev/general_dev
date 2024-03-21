@@ -1,225 +1,174 @@
-# General Dev
-
-General Dev Adalah library DART & Flutter yang memungkinkan kamu untuk mengdevelop sebuah project dengan mudah
-
-[![Pub Version](https://img.shields.io/pub/v/generalz?label=pub.dev&labelColor=333940&logo=dart)](https://pub.dev/packages/general_dev)
-
-## Pembuat & Kenapa Library ini di buat
-
-[AZKADEV](https://github.com/azkadev) **adalah pembuat asli library ini**, **library** ini di buat agar dia bisa **mempercepat development** di **berbagai platform & cli** sekaligus dengan mudah, pasalnya saya Terkadang membuat **bot / userbot / server** yang memungkinkan **deploy di LOCAL DEVICE / HP** Sehingga **library** ini di buat agar bisa **mengakses fitur** yang ada di masing **device** seperti **(camera, fingerprint, sms, mms)**
-
-<h3 align="center">
-  Pencipta Library
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
-</h3>
-
-<!-- Typing SVG by azkadev - https://github.com/azkadev/readme-typing-svg -->
-<p align="center">
-<a href="https://github.com/azkadev">
-        <img src="https://telegra.ph/file/e90bdeab8390b8c0d9df2.png" alt="Specta"
-            width="312"
-            height="312">
-    </a>
-</p>
-
-<!-- Social icons section -->
-<p align="center">   
-  <a href="https://youtube.com/@azkadev">
-    <img alt="youtube" title="Follow me on Youtube" src="https://img.shields.io/badge/Youtube-%23E4405F.svg?&style=for-the-badge&logo=youtube&logoColor=white"/>
-    </a>
-  <a href="https://t.me/azkadevbot?star=ref_readme_general_library">
-    <img alt="telegram" title="Follow me on Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)"/>
-    </a> 
-  <a href="https://youtube.com/@azkadev">
-    <img alt="Website" title="Follow me on Web" src="https://img.shields.io/badge/Website-%23E4405F.svg?&style=for-the-badge&logo=firefox&logoColor=white"/>
-    </a>  
-</p>
-
-
-
-<p align="center">
-  <a href="https://www.youtube.com/@azkadev?sub_confirmation=1">
-    <img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://custom-icon-badges.demolab.com/youtube/channel/subscribers/UC928-F8HenjZD1zNdMY42vA?color=%23E05D44&label=SUBSCRIBE&logo=video&logoColor=white&style=for-the-badge&labelColor=CE4630"/></a>
-  <a href="https://www.youtube.com/@azkadev">
-    <img alt="youtube views" title="YouTube views" src="https://custom-icon-badges.demolab.com/youtube/channel/views/UC928-F8HenjZD1zNdMY42vA?color=%23E1AD0E&logo=video&logoColor=white&style=for-the-badge&labelColor=C79600"/></a> 
-  <a href="https://github.com/azkadev?tab=repositories&sort=stargazers">
-    <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/azkadev?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
-  <a href="https://github.com/azkadev?tab=followers">
-    <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/azkadev?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
-</p>
-
----
-
-
-
-## 🔗️ Links
-
-
-#### Docs / Tutorial / Example
-
-1. [GITHUB DOCS](/docs/)
-2. [Youtube](https://youtube.com/@azkadev)
-
-
-## 🌟️ Hal Yang Menarik
-
-
-## Cara Penggunaan
-
-Library ini hanya di buat untuk bahasa dart, bahasa code lain saya belum ada rencanamungkin jika saya sudah ada tenaga / waktu / uang lebih saya akan membuat bahasa code sendiri jadi lebih efficient
-
-- Dart
-  untuk menggunakan di dart kamu perlu typing
-  - CLI
-    ```bash
-    dart pub add general_dev_dart
-    ```
-  - IMPORT LIBRARY
-    ```dart
-    import "package:general_dev_dart/general_dev_dart.dart";
-    ```
-  - SCRIPT
-    ```dart
-    // ignore_for_file: non_constant_identifier_names
-
-    import 'package:general_dev_dart/general_dev_dart_core.dart';
-
-    void main(List<String> args) async {
-      GeneralAiDart general_dev = GeneralAiDart();
-      general_dev.bark;
-      general_dev.google_generative_ai;
-      general_dev.piper;
-      general_dev.stable_diffusion;
-    }
-    ```
-
-- Flutter
-  untuk menggunakan di flutter kamu perlu typing
-  - CLI
-    ```bash
-    flutter pub add general_dev_flutter
-    ```
-  - IMPORT LIBRARY
-    ```dart
-    import "package:general_dev_flutter/general_dev_flutter.dart";
-    ```
-  - SCRIPT
-    ```dart
-    // ignore_for_file: non_constant_identifier_names
-    import "package:general_dev_flutter/general_dev_flutter.dart"; 
-
-    void main(List<String> args) async {
-      GeneralAiFlutter general_dev = GeneralAiFlutter();
-      general_dev.bark;
-      general_dev.google_generative_ai;
-      general_dev.piper;
-      general_dev.stable_diffusion;
-    }
-    ```
-
-### Full Install Flutter
-
-
-```bash
-flutter pub add general_dev_flutter
-```
-
-## ⚠️ Penting
-
--  Walaupun kebanyakan contoh menggunakan flutter / GeneralFlutter sebagai class, library ini bisa di timpa / di pakai di manapun (cli, web, app) jadi misal anda membuat program cli namun mencoba deploy di lokal app anda bisa menggunakan yang ada di flutter
-- Tolong bantu library ini terus berkembang dengan cara stars / follow akun social media saya  / Donate / Sponsor (ini yang paling ngaruh)
-
-
-## Contoh Cepat Awal
-
-```dart
-// ignore_for_file: non_constant_identifier_names
-
-import 'package:general_dev_dart/general_dev_dart_core.dart';
-
-void main(List<String> args) async {
-  GeneralAiDart general_dev = GeneralAiDart();
-  var res = general_dev.google_generative_ai.createAi(
-    ai_id: "main_ai",
-    api_key: "",
-  );
-  var result = await res.ask(prompt: "Tolong buatkan bahasa code dart hello world");
-  print(result);
-}
-
-```
-
-## ❔️ FAQS
-
-- **Q:** Kenapa Harus pakai library ini?
-- **A:** Kami tidak memaksa anda memakai libary ini namun jika library ini dipakai anda akan mudah dalam development karena selain library ini gampang di baca dan di atur anda bisa mengcustom sesuka hati
-    
-
-## 📑️ Features
- Saya bisa membuat fitur lebih dari bawah, anda hanya perlu donate / sponsor di github saya
- 
-
-### `Bark`
-
-Hasilkan suara dari text secara natural dan ekspresif
-
-#### Platform Support
-
-| Android | iOS | MacOS | Web | Linux | Windows | CLI | FUCHSIA |
-|:-------:|:---:|:-----:|:---:|:-----:|:-------:|:---:|:-------:|
-|    ❌    |  ❌  |   ❌   |  ❌  |   ✅   |    ❌    |  ✅  |    ❌    |
-
-
-
-
-### `Google GENERATIVE AI`
-
-Hasilkan suara dari text secara natural dan ekspresif
-
-#### Platform Support
-
-| Android | iOS | MacOS | Web | Linux | Windows | CLI | FUCHSIA |
-|:-------:|:---:|:-----:|:---:|:-----:|:-------:|:---:|:-------:|
-|    ✅    |  ✅  |   ✅   |  ✅  |   ✅   |    ✅    |  ✅  |    ❌    |
-
-
-### `PIPER`
-
-Hasilkan suara dari text dengan berbagai bahasa tanpa perlu spek tinggi
-
-#### Platform Support
-
-| Android | iOS | MacOS | Web | Linux | Windows | CLI | FUCHSIA |
-|:-------:|:---:|:-----:|:---:|:-----:|:-------:|:---:|:-------:|
-|    ❌    |  ❌  |   ❌   |  ❌  |   ✅   |    ❌    |  ✅  |    ❌    |
-
-
-### `Stable Diffusion`
-
-Hasilkan Gambar Di Perangkat Anda
-
-#### Platform Support
-
-| Android | iOS | MacOS | Web | Linux | Windows | CLI | FUCHSIA |
-|:-------:|:---:|:-----:|:---:|:-----:|:-------:|:---:|:-------:|
-|    ❌    |  ❌  |   ❌   |  ❌  |   ✅   |    ❌    |  ✅  |    ❌    |
-
-
-
-### `Whisper`
-
-Hasil Text dari suara
-
-#### Platform Support
-
-| Android | iOS | MacOS | Web | Linux | Windows | CLI | FUCHSIA |
-|:-------:|:---:|:-----:|:---:|:-----:|:-------:|:---:|:-------:|
-|    ✅    |  ❌  |   ❌   |  ❌  |   ✅   |    ❌    |  ✅  |    ❌    |
-
-
----
-
-## Contoh
-
-| NO | Screenshot / Demo | Descripction | LINK | Open Source |
-|----|-------------------|--------------|------|-------------|
+IyBHZW5lcmFsIERldgoKR2VuZXJhbCBEZXYgQWRhbGFoIGxpYnJhcnkgREFS
+VCAmIEZsdXR0ZXIgeWFuZyBtZW11bmdraW5rYW4ga2FtdSB1bnR1ayBtZW5n
+ZGV2ZWxvcCBzZWJ1YWggcHJvamVjdCBkZW5nYW4gbXVkYWgKClshW1B1YiBW
+ZXJzaW9uXShodHRwczovL2ltZy5zaGllbGRzLmlvL3B1Yi92L2dlbmVyYWx6
+P2xhYmVsPXB1Yi5kZXYmbGFiZWxDb2xvcj0zMzM5NDAmbG9nbz1kYXJ0KV0o
+aHR0cHM6Ly9wdWIuZGV2L3BhY2thZ2VzL2dlbmVyYWxfZGV2KQoKIyMgUGVt
+YnVhdCAmIEtlbmFwYSBMaWJyYXJ5IGluaSBkaSBidWF0CgpbQVpLQURFVl0o
+aHR0cHM6Ly9naXRodWIuY29tL2F6a2FkZXYpICoqYWRhbGFoIHBlbWJ1YXQg
+YXNsaSBsaWJyYXJ5IGluaSoqLCAqKmxpYnJhcnkqKiBpbmkgZGkgYnVhdCBh
+Z2FyIGRpYSBiaXNhICoqbWVtcGVyY2VwYXQgZGV2ZWxvcG1lbnQqKiBkaSAq
+KmJlcmJhZ2FpIHBsYXRmb3JtICYgY2xpKiogc2VrYWxpZ3VzIGRlbmdhbiBt
+dWRhaCwgcGFzYWxueWEgc2F5YSBUZXJrYWRhbmcgbWVtYnVhdCAqKmJvdCAv
+IHVzZXJib3QgLyBzZXJ2ZXIqKiB5YW5nIG1lbXVuZ2tpbmthbiAqKmRlcGxv
+eSBkaSBMT0NBTCBERVZJQ0UgLyBIUCoqIFNlaGluZ2dhICoqbGlicmFyeSoq
+IGluaSBkaSBidWF0IGFnYXIgYmlzYSAqKm1lbmdha3NlcyBmaXR1cioqIHlh
+bmcgYWRhIGRpIG1hc2luZyAqKmRldmljZSoqIHNlcGVydGkgKiooY2FtZXJh
+LCBmaW5nZXJwcmludCwgc21zLCBtbXMpKioKCjxoMyBhbGlnbj0iY2VudGVy
+Ij4KICBQZW5jaXB0YSBMaWJyYXJ5CiAgPGltZyBzcmM9Imh0dHBzOi8vbWVk
+aWEuZ2lwaHkuY29tL21lZGlhL2h2UkpDTEZ6Y2FzclI0aWE3ei9naXBoeS5n
+aWYiIHdpZHRoPSIyOCI+CjwvaDM+Cgo8IS0tIFR5cGluZyBTVkcgYnkgYXpr
+YWRldiAtIGh0dHBzOi8vZ2l0aHViLmNvbS9hemthZGV2L3JlYWRtZS10eXBp
+bmctc3ZnIC0tPgo8cCBhbGlnbj0iY2VudGVyIj4KPGEgaHJlZj0iaHR0cHM6
+Ly9naXRodWIuY29tL2F6a2FkZXYiPgogICAgICAgIDxpbWcgc3JjPSJodHRw
+czovL3RlbGVncmEucGgvZmlsZS9lOTBiZGVhYjgzOTBiOGMwZDlkZjIucG5n
+IiBhbHQ9IlNwZWN0YSIKICAgICAgICAgICAgd2lkdGg9IjMxMiIKICAgICAg
+ICAgICAgaGVpZ2h0PSIzMTIiPgogICAgPC9hPgo8L3A+Cgo8IS0tIFNvY2lh
+bCBpY29ucyBzZWN0aW9uIC0tPgo8cCBhbGlnbj0iY2VudGVyIj4gICAKICA8
+YSBocmVmPSJodHRwczovL3lvdXR1YmUuY29tL0BhemthZGV2Ij4KIMKgICA8
+aW1nIGFsdD0ieW91dHViZSIgdGl0bGU9IkZvbGxvdyBtZSBvbiBZb3V0dWJl
+IiBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvWW91dHViZS0l
+MjNFNDQwNUYuc3ZnPyZzdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289eW91dHVi
+ZSZsb2dvQ29sb3I9d2hpdGUiLz4KICAgIDwvYT4KICA8YSBocmVmPSJodHRw
+czovL3QubWUvYXprYWRldmJvdD9zdGFyPXJlZl9yZWFkbWVfZ2VuZXJhbF9s
+aWJyYXJ5Ij4KIMKgICA8aW1nIGFsdD0idGVsZWdyYW0iIHRpdGxlPSJGb2xs
+b3cgbWUgb24gVGVsZWdyYW0iIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5p
+by9iYWRnZS9UZWxlZ3JhbS0yQ0E1RTA/c3R5bGU9Zm9yLXRoZS1iYWRnZSZs
+b2dvPXRlbGVncmFtJmxvZ29Db2xvcj13aGl0ZSkiLz4KICAgIDwvYT4gCiAg
+PGEgaHJlZj0iaHR0cHM6Ly95b3V0dWJlLmNvbS9AYXprYWRldiI+CiDCoCAg
+PGltZyBhbHQ9IldlYnNpdGUiIHRpdGxlPSJGb2xsb3cgbWUgb24gV2ViIiBz
+cmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvV2Vic2l0ZS0lMjNF
+NDQwNUYuc3ZnPyZzdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289ZmlyZWZveCZs
+b2dvQ29sb3I9d2hpdGUiLz4KICAgIDwvYT4gIAo8L3A+CgoKCjxwIGFsaWdu
+PSJjZW50ZXIiPgogIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnlvdXR1YmUuY29t
+L0BhemthZGV2P3N1Yl9jb25maXJtYXRpb249MSI+CiAgICA8aW1nIGFsdD0i
+eW91dHViZSBzdWJzY3JpYmVycyIgdGl0bGU9IlN1YnNjcmliZSB0byBteSBZ
+b3VUdWJlIGNoYW5uZWwiIHNyYz0iaHR0cHM6Ly9jdXN0b20taWNvbi1iYWRn
+ZXMuZGVtb2xhYi5jb20veW91dHViZS9jaGFubmVsL3N1YnNjcmliZXJzL1VD
+OTI4LUY4SGVualpEMXpOZE1ZNDJ2QT9jb2xvcj0lMjNFMDVENDQmbGFiZWw9
+U1VCU0NSSUJFJmxvZ289dmlkZW8mbG9nb0NvbG9yPXdoaXRlJnN0eWxlPWZv
+ci10aGUtYmFkZ2UmbGFiZWxDb2xvcj1DRTQ2MzAiLz48L2E+CiAgPGEgaHJl
+Zj0iaHR0cHM6Ly93d3cueW91dHViZS5jb20vQGF6a2FkZXYiPgogICAgPGlt
+ZyBhbHQ9InlvdXR1YmUgdmlld3MiIHRpdGxlPSJZb3VUdWJlIHZpZXdzIiBz
+cmM9Imh0dHBzOi8vY3VzdG9tLWljb24tYmFkZ2VzLmRlbW9sYWIuY29tL3lv
+dXR1YmUvY2hhbm5lbC92aWV3cy9VQzkyOC1GOEhlbmpaRDF6TmRNWTQydkE/
+Y29sb3I9JTIzRTFBRDBFJmxvZ289dmlkZW8mbG9nb0NvbG9yPXdoaXRlJnN0
+eWxlPWZvci10aGUtYmFkZ2UmbGFiZWxDb2xvcj1DNzk2MDAiLz48L2E+IAog
+IDxhIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmNvbS9hemthZGV2P3RhYj1yZXBv
+c2l0b3JpZXMmc29ydD1zdGFyZ2F6ZXJzIj4KICAgIDxpbWcgYWx0PSJ0b3Rh
+bCBzdGFycyIgdGl0bGU9IlRvdGFsIHN0YXJzIG9uIEdpdEh1YiIgc3JjPSJo
+dHRwczovL2N1c3RvbS1pY29uLWJhZGdlcy5kZW1vbGFiLmNvbS9naXRodWIv
+c3RhcnMvYXprYWRldj9jb2xvcj01NTk2MGMmc3R5bGU9Zm9yLXRoZS1iYWRn
+ZSZsYWJlbENvbG9yPTQ4ODIwNyZsb2dvPXN0YXIiLz48L2E+CiAgPGEgaHJl
+Zj0iaHR0cHM6Ly9naXRodWIuY29tL2F6a2FkZXY/dGFiPWZvbGxvd2VycyI+
+CiAgICA8aW1nIGFsdD0iZm9sbG93ZXJzIiB0aXRsZT0iRm9sbG93IG1lIG9u
+IEdpdGh1YiIgc3JjPSJodHRwczovL2N1c3RvbS1pY29uLWJhZGdlcy5kZW1v
+bGFiLmNvbS9naXRodWIvZm9sbG93ZXJzL2F6a2FkZXY/Y29sb3I9MjM2YWQz
+JmxhYmVsQ29sb3I9MTE1NWJhJnN0eWxlPWZvci10aGUtYmFkZ2UmbG9nbz1w
+ZXJzb24tYWRkJmxhYmVsPUZvbGxvdyZsb2dvQ29sb3I9d2hpdGUiLz48L2E+
+CjwvcD4KCi0tLQoKCgojIyDwn5SX77iPIExpbmtzCgoKIyMjIyBEb2NzIC8g
+VHV0b3JpYWwgLyBFeGFtcGxlCgoxLiBbR0lUSFVCIERPQ1NdKC9kb2NzLykK
+Mi4gW1lvdXR1YmVdKGh0dHBzOi8veW91dHViZS5jb20vQGF6a2FkZXYpCgoK
+IyMg8J+Mn++4jyBIYWwgWWFuZyBNZW5hcmlrCgoKIyMgQ2FyYSBQZW5nZ3Vu
+YWFuCgpMaWJyYXJ5IGluaSBoYW55YSBkaSBidWF0IHVudHVrIGJhaGFzYSBk
+YXJ0LCBiYWhhc2EgY29kZSBsYWluIHNheWEgYmVsdW0gYWRhIHJlbmNhbmFt
+dW5na2luIGppa2Egc2F5YSBzdWRhaCBhZGEgdGVuYWdhIC8gd2FrdHUgLyB1
+YW5nIGxlYmloIHNheWEgYWthbiBtZW1idWF0IGJhaGFzYSBjb2RlIHNlbmRp
+cmkgamFkaSBsZWJpaCBlZmZpY2llbnQKCi0gRGFydAogIHVudHVrIG1lbmdn
+dW5ha2FuIGRpIGRhcnQga2FtdSBwZXJsdSB0eXBpbmcKICAtIENMSQogICAg
+YGBgYmFzaAogICAgZGFydCBwdWIgYWRkIGdlbmVyYWxfZGV2X2RhcnQKICAg
+IGBgYAogIC0gSU1QT1JUIExJQlJBUlkKICAgIGBgYGRhcnQKICAgIGltcG9y
+dCAicGFja2FnZTpnZW5lcmFsX2Rldl9kYXJ0L2dlbmVyYWxfZGV2X2RhcnQu
+ZGFydCI7CiAgICBgYGAKICAtIFNDUklQVAogICAgYGBgZGFydAogICAgLy8g
+aWdub3JlX2Zvcl9maWxlOiBub25fY29uc3RhbnRfaWRlbnRpZmllcl9uYW1l
+cwoKICAgIGltcG9ydCAncGFja2FnZTpnZW5lcmFsX2Rldl9kYXJ0L2dlbmVy
+YWxfZGV2X2RhcnRfY29yZS5kYXJ0JzsKCiAgICB2b2lkIG1haW4oTGlzdDxT
+dHJpbmc+IGFyZ3MpIGFzeW5jIHsKICAgICAgR2VuZXJhbEFpRGFydCBnZW5l
+cmFsX2RldiA9IEdlbmVyYWxBaURhcnQoKTsKICAgICAgZ2VuZXJhbF9kZXYu
+YmFyazsKICAgICAgZ2VuZXJhbF9kZXYuZ29vZ2xlX2dlbmVyYXRpdmVfYWk7
+CiAgICAgIGdlbmVyYWxfZGV2LnBpcGVyOwogICAgICBnZW5lcmFsX2Rldi5z
+dGFibGVfZGlmZnVzaW9uOwogICAgfQogICAgYGBgCgotIEZsdXR0ZXIKICB1
+bnR1ayBtZW5nZ3VuYWthbiBkaSBmbHV0dGVyIGthbXUgcGVybHUgdHlwaW5n
+CiAgLSBDTEkKICAgIGBgYGJhc2gKICAgIGZsdXR0ZXIgcHViIGFkZCBnZW5l
+cmFsX2Rldl9mbHV0dGVyCiAgICBgYGAKICAtIElNUE9SVCBMSUJSQVJZCiAg
+ICBgYGBkYXJ0CiAgICBpbXBvcnQgInBhY2thZ2U6Z2VuZXJhbF9kZXZfZmx1
+dHRlci9nZW5lcmFsX2Rldl9mbHV0dGVyLmRhcnQiOwogICAgYGBgCiAgLSBT
+Q1JJUFQKICAgIGBgYGRhcnQKICAgIC8vIGlnbm9yZV9mb3JfZmlsZTogbm9u
+X2NvbnN0YW50X2lkZW50aWZpZXJfbmFtZXMKICAgIGltcG9ydCAicGFja2Fn
+ZTpnZW5lcmFsX2Rldl9mbHV0dGVyL2dlbmVyYWxfZGV2X2ZsdXR0ZXIuZGFy
+dCI7IAoKICAgIHZvaWQgbWFpbihMaXN0PFN0cmluZz4gYXJncykgYXN5bmMg
+ewogICAgICBHZW5lcmFsQWlGbHV0dGVyIGdlbmVyYWxfZGV2ID0gR2VuZXJh
+bEFpRmx1dHRlcigpOwogICAgICBnZW5lcmFsX2Rldi5iYXJrOwogICAgICBn
+ZW5lcmFsX2Rldi5nb29nbGVfZ2VuZXJhdGl2ZV9haTsKICAgICAgZ2VuZXJh
+bF9kZXYucGlwZXI7CiAgICAgIGdlbmVyYWxfZGV2LnN0YWJsZV9kaWZmdXNp
+b247CiAgICB9CiAgICBgYGAKCiMjIyBGdWxsIEluc3RhbGwgRmx1dHRlcgoK
+CmBgYGJhc2gKZmx1dHRlciBwdWIgYWRkIGdlbmVyYWxfZGV2X2ZsdXR0ZXIK
+YGBgCgojIyDimqDvuI8gUGVudGluZwoKLSAgV2FsYXVwdW4ga2ViYW55YWth
+biBjb250b2ggbWVuZ2d1bmFrYW4gZmx1dHRlciAvIEdlbmVyYWxGbHV0dGVy
+IHNlYmFnYWkgY2xhc3MsIGxpYnJhcnkgaW5pIGJpc2EgZGkgdGltcGEgLyBk
+aSBwYWthaSBkaSBtYW5hcHVuIChjbGksIHdlYiwgYXBwKSBqYWRpIG1pc2Fs
+IGFuZGEgbWVtYnVhdCBwcm9ncmFtIGNsaSBuYW11biBtZW5jb2JhIGRlcGxv
+eSBkaSBsb2thbCBhcHAgYW5kYSBiaXNhIG1lbmdndW5ha2FuIHlhbmcgYWRh
+IGRpIGZsdXR0ZXIKLSBUb2xvbmcgYmFudHUgbGlicmFyeSBpbmkgdGVydXMg
+YmVya2VtYmFuZyBkZW5nYW4gY2FyYSBzdGFycyAvIGZvbGxvdyBha3VuIHNv
+Y2lhbCBtZWRpYSBzYXlhICAvIERvbmF0ZSAvIFNwb25zb3IgKGluaSB5YW5n
+IHBhbGluZyBuZ2FydWgpCgoKIyMgQ29udG9oIENlcGF0IEF3YWwKCmBgYGRh
+cnQKLy8gaWdub3JlX2Zvcl9maWxlOiBub25fY29uc3RhbnRfaWRlbnRpZmll
+cl9uYW1lcwoKaW1wb3J0ICdwYWNrYWdlOmdlbmVyYWxfZGV2X2RhcnQvZ2Vu
+ZXJhbF9kZXZfZGFydF9jb3JlLmRhcnQnOwoKdm9pZCBtYWluKExpc3Q8U3Ry
+aW5nPiBhcmdzKSBhc3luYyB7CiAgR2VuZXJhbEFpRGFydCBnZW5lcmFsX2Rl
+diA9IEdlbmVyYWxBaURhcnQoKTsKICB2YXIgcmVzID0gZ2VuZXJhbF9kZXYu
+Z29vZ2xlX2dlbmVyYXRpdmVfYWkuY3JlYXRlQWkoCiAgICBhaV9pZDogIm1h
+aW5fYWkiLAogICAgYXBpX2tleTogIiIsCiAgKTsKICB2YXIgcmVzdWx0ID0g
+YXdhaXQgcmVzLmFzayhwcm9tcHQ6ICJUb2xvbmcgYnVhdGthbiBiYWhhc2Eg
+Y29kZSBkYXJ0IGhlbGxvIHdvcmxkIik7CiAgcHJpbnQocmVzdWx0KTsKfQoK
+YGBgCgojIyDinZTvuI8gRkFRUwoKLSAqKlE6KiogS2VuYXBhIEhhcnVzIHBh
+a2FpIGxpYnJhcnkgaW5pPwotICoqQToqKiBLYW1pIHRpZGFrIG1lbWFrc2Eg
+YW5kYSBtZW1ha2FpIGxpYmFyeSBpbmkgbmFtdW4gamlrYSBsaWJyYXJ5IGlu
+aSBkaXBha2FpIGFuZGEgYWthbiBtdWRhaCBkYWxhbSBkZXZlbG9wbWVudCBr
+YXJlbmEgc2VsYWluIGxpYnJhcnkgaW5pIGdhbXBhbmcgZGkgYmFjYSBkYW4g
+ZGkgYXR1ciBhbmRhIGJpc2EgbWVuZ2N1c3RvbSBzZXN1a2EgaGF0aQogICAg
+CgojIyDwn5OR77iPIEZlYXR1cmVzCiBTYXlhIGJpc2EgbWVtYnVhdCBmaXR1
+ciBsZWJpaCBkYXJpIGJhd2FoLCBhbmRhIGhhbnlhIHBlcmx1IGRvbmF0ZSAv
+IHNwb25zb3IgZGkgZ2l0aHViIHNheWEKIAoKIyMjIGBCYXJrYAoKSGFzaWxr
+YW4gc3VhcmEgZGFyaSB0ZXh0IHNlY2FyYSBuYXR1cmFsIGRhbiBla3NwcmVz
+aWYKCiMjIyMgUGxhdGZvcm0gU3VwcG9ydAoKfCBBbmRyb2lkIHwgaU9TIHwg
+TWFjT1MgfCBXZWIgfCBMaW51eCB8IFdpbmRvd3MgfCBDTEkgfCBGVUNIU0lB
+IHwKfDotLS0tLS0tOnw6LS0tOnw6LS0tLS06fDotLS06fDotLS0tLTp8Oi0t
+LS0tLS06fDotLS06fDotLS0tLS0tOnwKfCAgICDinYwgICAgfCAg4p2MICB8
+ICAg4p2MICAgfCAg4p2MICB8ICAg4pyFICAgfCAgICDinYwgICAgfCAg4pyF
+ICB8ICAgIOKdjCAgICB8CgoKCgojIyMgYEdvb2dsZSBHRU5FUkFUSVZFIEFJ
+YAoKSGFzaWxrYW4gc3VhcmEgZGFyaSB0ZXh0IHNlY2FyYSBuYXR1cmFsIGRh
+biBla3NwcmVzaWYKCiMjIyMgUGxhdGZvcm0gU3VwcG9ydAoKfCBBbmRyb2lk
+IHwgaU9TIHwgTWFjT1MgfCBXZWIgfCBMaW51eCB8IFdpbmRvd3MgfCBDTEkg
+fCBGVUNIU0lBIHwKfDotLS0tLS0tOnw6LS0tOnw6LS0tLS06fDotLS06fDot
+LS0tLTp8Oi0tLS0tLS06fDotLS06fDotLS0tLS0tOnwKfCAgICDinIUgICAg
+fCAg4pyFICB8ICAg4pyFICAgfCAg4pyFICB8ICAg4pyFICAgfCAgICDinIUg
+ICAgfCAg4pyFICB8ICAgIOKdjCAgICB8CgoKIyMjIGBQSVBFUmAKCkhhc2ls
+a2FuIHN1YXJhIGRhcmkgdGV4dCBkZW5nYW4gYmVyYmFnYWkgYmFoYXNhIHRh
+bnBhIHBlcmx1IHNwZWsgdGluZ2dpCgojIyMjIFBsYXRmb3JtIFN1cHBvcnQK
+CnwgQW5kcm9pZCB8IGlPUyB8IE1hY09TIHwgV2ViIHwgTGludXggfCBXaW5k
+b3dzIHwgQ0xJIHwgRlVDSFNJQSB8Cnw6LS0tLS0tLTp8Oi0tLTp8Oi0tLS0t
+Onw6LS0tOnw6LS0tLS06fDotLS0tLS0tOnw6LS0tOnw6LS0tLS0tLTp8Cnwg
+ICAg4p2MICAgIHwgIOKdjCAgfCAgIOKdjCAgIHwgIOKdjCAgfCAgIOKchSAg
+IHwgICAg4p2MICAgIHwgIOKchSAgfCAgICDinYwgICAgfAoKCiMjIyBgU3Rh
+YmxlIERpZmZ1c2lvbmAKCkhhc2lsa2FuIEdhbWJhciBEaSBQZXJhbmdrYXQg
+QW5kYQoKIyMjIyBQbGF0Zm9ybSBTdXBwb3J0Cgp8IEFuZHJvaWQgfCBpT1Mg
+fCBNYWNPUyB8IFdlYiB8IExpbnV4IHwgV2luZG93cyB8IENMSSB8IEZVQ0hT
+SUEgfAp8Oi0tLS0tLS06fDotLS06fDotLS0tLTp8Oi0tLTp8Oi0tLS0tOnw6
+LS0tLS0tLTp8Oi0tLTp8Oi0tLS0tLS06fAp8ICAgIOKdjCAgICB8ICDinYwg
+IHwgICDinYwgICB8ICDinYwgIHwgICDinIUgICB8ICAgIOKdjCAgICB8ICDi
+nIUgIHwgICAg4p2MICAgIHwKCgoKIyMjIGBXaGlzcGVyYAoKSGFzaWwgVGV4
+dCBkYXJpIHN1YXJhCgojIyMjIFBsYXRmb3JtIFN1cHBvcnQKCnwgQW5kcm9p
+ZCB8IGlPUyB8IE1hY09TIHwgV2ViIHwgTGludXggfCBXaW5kb3dzIHwgQ0xJ
+IHwgRlVDSFNJQSB8Cnw6LS0tLS0tLTp8Oi0tLTp8Oi0tLS0tOnw6LS0tOnw6
+LS0tLS06fDotLS0tLS0tOnw6LS0tOnw6LS0tLS0tLTp8CnwgICAg4pyFICAg
+IHwgIOKdjCAgfCAgIOKdjCAgIHwgIOKdjCAgfCAgIOKchSAgIHwgICAg4p2M
+ICAgIHwgIOKchSAgfCAgICDinYwgICAgfAoKCi0tLQoKIyMgQ29udG9oCgp8
+IE5PIHwgU2NyZWVuc2hvdCAvIERlbW8gfCBEZXNjcmlwY3Rpb24gfCBMSU5L
+IHwgT3BlbiBTb3VyY2UgfAp8LS0tLXwtLS0tLS0tLS0tLS0tLS0tLS0tfC0t
+LS0tLS0tLS0tLS0tfC0tLS0tLXwtLS0tLS0tLS0tLS0tfAo=
+
+<!-- START GLOBAL CORPORATION -->
+404: Not Found
+<!-- END GLOBAL CORPORATION -->
